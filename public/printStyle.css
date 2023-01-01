@@ -1,0 +1,81 @@
+
+
+
+
+
+
+#container
+{
+
+
+	border: 1px solid silver;
+	width:309.4px;
+	padding-left:11.3px;
+	padding-right:11.3px;
+	
+}
+table
+{
+	
+	border-collapse:collapse;
+	position:relative;
+	width:309.4px;
+	margin-bottom:10px;
+}
+
+@media print{
+	
+	margin:0;	
+
+}
+table,th,td 
+{
+	
+		border-bottom:1px solid silver;
+		font-size:11px;
+		font-family:arial;
+		
+}
+#table td{ 
+	text-align:left;
+	
+}
+#amount-table
+{	
+	
+	position:relative;
+	width:50%;
+	margin:0 auto;
+	float: right;
+	margin-bottom: 10px;
+}
+
+#food-table
+{
+	position:relative;
+	text-align:center;
+	font-size:11px;
+	
+	
+}
+#f-no
+{
+	width:20px;
+	
+}
+#f-price
+{
+	width:40px;
+}
+#f-qty
+{
+	width:40px;
+}
+#f-total
+{
+	width:50px;
+}
+#f-name
+{
+	width:127.4px;
+}
